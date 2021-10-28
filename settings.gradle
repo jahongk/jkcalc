@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "jkcalc"
 include ':app'
+include ':calclib'
