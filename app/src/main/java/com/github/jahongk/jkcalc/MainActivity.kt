@@ -17,5 +17,6 @@ class MainActivity : AppCompatActivity() {
         val calc = Calc()
         val sum = calc.sum(1, 2)
         binding.resultTextView.text = "$sum"
+
     }
 }
