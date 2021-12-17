@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.jahongk'
-version= '0.0.10'
+version= '0.0.11'
 
 android {
     compileSdk 31
@@ -50,8 +50,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.jahongk'
-                artifactId = 'jkcalc'
-                version = '0.0.10'
+                artifactId = 'calclib'
+                version = '0.0.11'
             }
         }
     }
