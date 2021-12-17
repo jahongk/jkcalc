@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.jahongk'
-version= '0.0.5'
+version= '0.0.6'
 
 android {
     compileSdk 31
@@ -14,7 +14,7 @@ android {
         minSdk 21
         targetSdk 31
         versionCode 1
-        versionName "0.0.5"
+        versionName "0.0.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -53,7 +53,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.jahongk'
                 artifactId = 'jkcalc'
-                version = '0.0.4'
+                version = '0.0.6'
             }
         }
     }
